@@ -12,7 +12,14 @@ This project explores how machine learning and large language models can help de
 
 ## Setup Instructions
 
-### 1. Environment Setup
+### 1. Clone the Repository
+First, clone this repository to your local machine:
+
+```bash
+git clone https://github.com/ChatMED/ALS-EMG.git
+```
+
+### 2. Environment Setup
 
 Navigate to the project folder and create a virtual environment:
 
@@ -30,7 +37,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. EMG - Evaluation and Feature Generation
+### 3. EMG - Evaluation and Feature Generation
 
 Navigate to `EMG` and run the evaluation:
 
@@ -54,7 +61,7 @@ If you want to regenerate features:
 
 **⚠️ Note:** Running the code in `DatasetPreparation.ipynb` will overwrite the datasets in `LLM` for LLM fine-tuning for `EMG`.
 
-### 3. EEG - Evaluation and Feature Generation
+### 4. EEG - Evaluation and Feature Generation
 
 Navigate to `EEG` and run the evaluation:
 
@@ -78,7 +85,7 @@ If you want to regenerate features:
 
 **⚠️ Note:** Running the code in `DatasetPreparation.ipynb` will overwrite the datasets in `LLM` for LLM fine-tuning for `EEG`.
 
-### 4. LLM - LLM Fine-tuning
+### 5. LLM - LLM Fine-tuning
 
 Navigate to `LLM`:
 
